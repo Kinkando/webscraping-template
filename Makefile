@@ -3,6 +3,8 @@ node-init:
 	npm install express --save
 	npm install -g nodemon
 	npm i puppeteer
+	npm i request
+	npm i cheerio
 deploy-init:
 	git init
 	// heroku git:remote -a unikume-kinkando-api

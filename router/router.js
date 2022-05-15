@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 const { newScrapingRepository } = require("../repository/scraping_repository")
 const { newScrapingService } = require("../service/scraping_service")
